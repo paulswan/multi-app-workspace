@@ -1,0 +1,24 @@
+{
+  "editor.tabSize": 2,
+  "editor.autoIndent": "full",
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "editor.formatOnSaveMode": "file",
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+
+  "html.format.wrapLineLength": 120,
+  "html.format.preserveNewLines": true,
+  "html.format.maxPreserveNewLines": 2,
+  "html.format.indentInnerHtml": true,
+  "html.format.wrapAttributes": "preserve-aligned",
+
+  "eslint.validate": ["typescript"],
+
+  "files.trimTrailingWhitespace": true
+}
