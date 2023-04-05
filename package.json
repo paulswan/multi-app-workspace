@@ -7,10 +7,12 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "start-alpha": "ng serve --project=alpha",
-    "start-beta": "ng serve --project=beta",
-    "start-gamma": "ng serve --project=gamma",
-    "lint": "ng lint"
+    "lint": "ng lint",
+    "start:alpha": "ng serve --project=alpha --port=4100",
+    "start:beta": "ng serve --project=beta --port=4200",
+    "start:gamma": "ng serve --project=gamma --port=4300",
+    "build:my-lib": "ng build --project=my-lib",
+    "watch:my-lib": "ng build --project=my-lib --watch --configuration development"
   },
   "private": true,
   "dependencies": {
